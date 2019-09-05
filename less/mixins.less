@@ -1,8 +1,8 @@
 // Mixins Here
 
-.button() {
-    color: white;
-    background-color: black;
+.button(@back-color, @color) {
+    color: @color;
+    background-color: @back-color;
     font-size: 1.4rem;
     border-width: 1px;
     border-radius: 15px;

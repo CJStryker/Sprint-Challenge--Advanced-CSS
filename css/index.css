@@ -160,6 +160,12 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+.nav-container {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
 h1 {
   text-align: center;
   display: flex;
@@ -182,13 +188,6 @@ nav a {
   text-decoration: none;
   color: black;
 }
-/*
-@media @mobile {
-    .nav-container {
-        display: flex;
-        flex-flow: column;
-    }
-}*/
 footer {
   color: #22283B;
   background: #f4f4f4;
